@@ -8,6 +8,7 @@ int main()
     char letter;
     double money;
     
+	// copy initialization
     num = 23;
     letter = 'I';
     money = 5635.93;
