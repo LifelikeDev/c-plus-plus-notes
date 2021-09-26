@@ -4,11 +4,13 @@ using namespace std;
 
 int main()
 {
-    // arrays
+     // arrays
     
     int nums[] = {3, 5, 7, 8, 11, 6, 7};
     string wordArr[10] = {};
     string word = "Wellington";
+    char greeting[] = "Bonjour";
+    
     
     for (int a = 0; a < 7; a++) {
         cout << nums[a] << endl;
@@ -24,4 +26,9 @@ int main()
         cout << wordArr[c] << endl;
     }
     
+    cout << "----------------------" << endl;
+    
+    for (int d = 0; d < 8; d++) {
+        cout << greeting[d] << endl;
+    }
 }
