@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // pointers
+   // pointers
     // a pointer is a variable that stores the address of another variable (in memory)
     // * = indirection operator; allows access through a pointer; initializes a pointer
     // & = address operator; reads the address of a variable
@@ -14,8 +14,12 @@ int main()
     cin >> value;
     
     int *valuePointer = &value;
+    cout << value << " " << *valuePointer << endl;
     
-    cout << value << " " << *valuePointer;
+    // incrementing the value of valuePointer
+    ++*valuePointer;
+    cout << value << " " << *valuePointer << endl;
+    
     
     return 0;
 }
